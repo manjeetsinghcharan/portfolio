@@ -169,3 +169,14 @@
   );
   background-size: 100% 4px;
 }
+
+/* Hide Netlify Injected Badge */
+a[href*="netlify.com"],
+div[class*="netlify-badge"],
+[data-netlify-badge],
+#netlify-badge {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
