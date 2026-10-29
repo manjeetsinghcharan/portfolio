@@ -164,13 +164,13 @@ export const RESUME_DATA = {
   projects: [
     {
       id: "flashcard-generator",
-      title: "FlashCard Generator App",
+      title: "FlashCard Generator Website",
       year: "2026",
       tech: ["HTML", "CSS", "JavaScript"],
       category: "Web Development",
       badge: "Training Project",
-      summary: "Dynamic flashcard generator built during 45-day training at Curious Team Learning Pvt. Ltd.",
-      description: "An interactive educational application that lets users create, organize, and flip through custom flashcard decks. Features dynamic card rendering, interactive flip animations, and responsive layout across devices.",
+      summary: "Dynamic flashcard generator website built during 45-day training at Curious Team Learning Pvt. Ltd.",
+      description: "An interactive educational website that lets users create, organize, and flip through custom flashcard decks. Features dynamic card rendering, interactive flip animations, and responsive layout across devices.",
       keyFeatures: [
         "Dynamic flashcard creation with form validation",
         "CSS 3D card flip animation for question/answer transitions",
@@ -243,7 +243,7 @@ export const RESUME_DATA = {
       advancementTier: "rare",
       highlights: [
         "Completed an intensive 45-day hands-on Web Development training program",
-        "Built FlashCard Generator app with dynamic card generation and interactive UI",
+        "Built FlashCard Generator website with dynamic card generation and interactive UI",
         "Strengthened practical skills in HTML, CSS, JavaScript, and responsive design"
       ]
     },

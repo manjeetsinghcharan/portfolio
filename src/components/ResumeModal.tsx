@@ -42,7 +42,7 @@ EXPERIENCE & TRAINING
 • Curious Team Learning Pvt. Ltd., Kota (15 May 2026 – 30 June 2026)
   Web Development Trainee (45 Days)
   - Completed intensive 45-day hands-on Web Development training program in Kota
-  - Developed 'FlashCard Generator' app featuring dynamic card generation, state management, and responsive UI
+  - Developed 'FlashCard Generator' website featuring dynamic card generation, state management, and responsive UI
 • XPERT CODERS Pvt. Ltd., Jodhpur (June 2025)
   Web Developer Intern
   - Worked on frontend development using HTML, CSS, and JavaScript
@@ -53,8 +53,8 @@ EXPERIENCE & TRAINING
   - Collaborated with team members using Git and GitHub for version control
 
 PROJECTS
-• FlashCard Generator App | HTML, CSS, JavaScript (2026)
-  - Interactive educational application for creating and studying custom flashcards
+• FlashCard Generator Website | HTML, CSS, JavaScript (2026)
+  - Interactive educational website for creating and studying custom flashcards
   - Built during 45-day Web Development training at Curious Team Learning Pvt. Ltd.
   - Project URL: https://github.com/manjeetsinghcharan/smart-flashcard-generator
 • School Website (Frontend) | HTML, CSS, JavaScript (2025)
@@ -176,7 +176,7 @@ CERTIFICATIONS
                 </div>
                 <ul className="list-disc list-inside text-xs text-slate-300 space-y-1 mt-1">
                   <li>Completed 45-day hands-on Web Development training program</li>
-                  <li>Built 'FlashCard Generator' app featuring dynamic card generation, state management, and responsive UI</li>
+                  <li>Built 'FlashCard Generator' website featuring dynamic card generation, state management, and responsive UI</li>
                 </ul>
               </div>
 
@@ -216,12 +216,12 @@ CERTIFICATIONS
             <div className="space-y-4">
               <div>
                 <div className="flex flex-col sm:flex-row justify-between sm:items-baseline gap-1">
-                  <h3 className="font-semibold text-white">FlashCard Generator App</h3>
+                  <h3 className="font-semibold text-white">FlashCard Generator Website</h3>
                   <span className="font-mono text-xs text-slate-400">2026</span>
                 </div>
                 <div className="text-xs font-mono text-emerald-400 mb-1">Tech: HTML, CSS, JavaScript</div>
                 <p className="text-xs text-slate-300 mb-1">
-                  Interactive flashcard study application developed during 45-day training at Curious Team Learning Pvt. Ltd.
+                  Interactive flashcard study website developed during 45-day training at Curious Team Learning Pvt. Ltd.
                 </p>
                 <a
                   href="https://github.com/manjeetsinghcharan/smart-flashcard-generator"

@@ -7,7 +7,7 @@ A production-quality personal portfolio website with a **Minecraft-inspired crea
 - **Minecraft-Themed UI System**: Custom pixel-art SVG icons, inventory-slot bevels, and Minecraft-style block styling
 - **Interactive Hotbar Navigation**: Press keys 1–8 to jump directly between sections
 - **Developer Console**: Press `` ` `` or `~` to toggle a terminal shell — try `/help`, `/skills`, `/projects`, `/contact`
-- **Authentic Project Builds**: Clean, professional cards showcasing real projects including the **FlashCard Generator App**, **School Website (Frontend)**, **Personal Portfolio Website**, and **AutoTank Project Exhibition**
+- **Authentic Project Builds**: Clean, professional cards showcasing real projects including the **FlashCard Generator Website**, **School Website (Frontend)**, **Personal Portfolio Website**, and **AutoTank Project Exhibition**
 - **Experience & Training**: Detailed career progression featuring 45-day Web Development training at **Curious Team Learning Pvt. Ltd.** (Kota), **XPERT CODERS Pvt. Ltd.** (Jodhpur), **Developer Student Club RTU**, and campus leadership
 - **Comprehensive Skill Tree**: Categorized inventory covering C, C++, Java, JavaScript, HTML5, CSS3, Responsive Design, DOM Manipulation, Git, GitHub, and ongoing learning in React.js, Node.js, and DSA
 - **Full Printable Resume**: Instant in-browser resume viewer with Print/PDF export and plain-text copy
