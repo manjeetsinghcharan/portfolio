@@ -1,0 +1,171 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-pixel: 'Silkscreen', 'Press Start 2P', monospace;
+    --font-arcade: 'Press Start 2P', monospace;
+    --font-mono: 'JetBrains Mono', monospace;
+    --font-sans: 'Inter', system-ui, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #0c0f14;
+    color: #e2e8f0;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom Typography Helpers */
+.font-pixel {
+  font-family: var(--font-pixel);
+  letter-spacing: 0.05em;
+}
+
+.font-arcade {
+  font-family: var(--font-arcade);
+  letter-spacing: 0.02em;
+}
+
+.font-mono-code {
+  font-family: var(--font-mono);
+}
+
+/* Minecraft-inspired Authentic Bevels & Block Borders (Modernized for Dark Mode) */
+.mc-slot {
+  background-color: #12161e;
+  border-top: 2px solid #080a0e;
+  border-left: 2px solid #080a0e;
+  border-bottom: 2px solid #2d3748;
+  border-right: 2px solid #2d3748;
+  box-shadow: inset 1px 1px 0px 0px rgba(0, 0, 0, 0.6);
+}
+
+.mc-slot:hover {
+  background-color: #171d27;
+}
+
+.mc-slot-active {
+  background-color: #1a222f;
+  border-top: 2px solid #10b981;
+  border-left: 2px solid #10b981;
+  border-bottom: 2px solid #047857;
+  border-right: 2px solid #047857;
+  box-shadow: 0 0 12px rgba(16, 185, 129, 0.25);
+}
+
+.mc-card {
+  background-color: #131720;
+  border-top: 2px solid #2e3846;
+  border-left: 2px solid #2e3846;
+  border-bottom: 2px solid #0a0d12;
+  border-right: 2px solid #0a0d12;
+  box-shadow: 0 8px 24px -4px rgba(0, 0, 0, 0.6), inset 1px 1px 0px rgba(255, 255, 255, 0.05);
+}
+
+.mc-card-stone {
+  background-color: #181d26;
+  border: 2px solid #2b3543;
+  box-shadow: inset -2px -2px 0px 0px #0b0e14, inset 2px 2px 0px 0px #374355, 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+.mc-card-emerald {
+  background: linear-gradient(180deg, #131b17 0%, #0e1612 100%);
+  border-top: 2px solid #1e3a2b;
+  border-left: 2px solid #1e3a2b;
+  border-bottom: 2px solid #06110a;
+  border-right: 2px solid #06110a;
+}
+
+.mc-btn {
+  position: relative;
+  background-color: #1f2733;
+  border-top: 2px solid #3d4a5d;
+  border-left: 2px solid #3d4a5d;
+  border-bottom: 2px solid #0c1017;
+  border-right: 2px solid #0c1017;
+  transition: all 0.12s ease;
+  user-select: none;
+}
+
+.mc-btn:hover {
+  background-color: #273140;
+  transform: translateY(-1px);
+}
+
+.mc-btn:active {
+  transform: translateY(1px);
+  border-top: 2px solid #0c1017;
+  border-left: 2px solid #0c1017;
+  border-bottom: 2px solid #3d4a5d;
+  border-right: 2px solid #3d4a5d;
+}
+
+.mc-btn-primary {
+  background-color: #15803d;
+  border-top: 2px solid #4ade80;
+  border-left: 2px solid #4ade80;
+  border-bottom: 2px solid #14532d;
+  border-right: 2px solid #14532d;
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(22, 101, 52, 0.4);
+}
+
+.mc-btn-primary:hover {
+  background-color: #16a34a;
+  box-shadow: 0 6px 20px rgba(34, 197, 94, 0.45);
+}
+
+.mc-btn-primary:active {
+  border-top: 2px solid #14532d;
+  border-left: 2px solid #14532d;
+  border-bottom: 2px solid #4ade80;
+  border-right: 2px solid #4ade80;
+}
+
+/* Background grid pattern */
+.bg-grid-mc {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+}
+
+.bg-dots-mc {
+  background-image: radial-gradient(rgba(74, 222, 128, 0.08) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Item tooltip style */
+.mc-tooltip {
+  background-color: #100010;
+  border: 2px solid #2c0944;
+  box-shadow: inset 1px 1px 0px #4d157a, inset -1px -1px 0px #4d157a;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090c10;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #252e3b;
+  border: 2px solid #090c10;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3b4657;
+}
+
+/* Scanline overlay for retro CRT/terminal touch */
+.scanlines {
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 0, 0, 0.25) 50%
+  );
+  background-size: 100% 4px;
+}
