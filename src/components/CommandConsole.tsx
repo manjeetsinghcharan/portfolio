@@ -55,13 +55,13 @@ export const CommandConsole: React.FC<CommandConsoleProps> = ({ isOpen, onClose 
       newLogs.push({ text: `Player: ${RESUME_DATA.name} | B.Tech IT, RTU Kota (CGPA: ${RESUME_DATA.level}) | Jodhpur & Kota`, type: 'success' });
       document.querySelector('#about')?.scrollIntoView({ behavior: 'smooth' });
     } else if (lower === '/skills') {
-      newLogs.push({ text: `Languages: C, C++, Java, JS, HTML, CSS | Core CS: OOPs, OS, CN, DSA | Tools: Git, GitHub, VS Code | Learning: React, Node`, type: 'success' });
+      newLogs.push({ text: `Languages: C, C++, Java, JS, TS, HTML, CSS | Core CS: OOPs, OS, CN, DSA | Web: React, Tailwind | Tools: Git, GitHub, Vite, Netlify | Learning: Node, Next`, type: 'success' });
       document.querySelector('#skills')?.scrollIntoView({ behavior: 'smooth' });
     } else if (lower === '/projects') {
       newLogs.push(
         { text: `1. FlashCard Generator Website -> github.com/manjeetsinghcharan/smart-flashcard-generator`, type: 'success' },
         { text: `2. School Website (Frontend) -> github.com/manjeetsinghcharan/school-website`, type: 'success' },
-        { text: `3. Personal Portfolio Website -> github.com/manjeetsinghcharan/portfoliomanjeetcharan`, type: 'success' },
+        { text: `3. Developer Portfolio Website (React + TS) -> Live: https://manjeetdev.netlify.app/ | Code: github.com/manjeetsinghcharan/portfolio`, type: 'success' },
         { text: `4. AutoTank Project Exhibition (RTU Campus)`, type: 'success' }
       );
       document.querySelector('#builds')?.scrollIntoView({ behavior: 'smooth' });

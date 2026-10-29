@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { ExternalLink } from 'lucide-react';
 import { RESUME_DATA } from '../data/resumeData';
 import { GithubIcon } from './SocialIcons';
 
@@ -45,7 +46,7 @@ export const Projects: React.FC = () => {
             activeTab === 'Web Development' ? 'mc-btn-primary shadow-md' : 'mc-btn text-slate-300'
           }`}
         >
-          WEB DEV (3)
+          WEB DEV ({RESUME_DATA.projects.filter(p => p.category === 'Web Development').length})
         </button>
         <button
           onClick={() => setActiveTab('Hardware & Systems')}
@@ -53,7 +54,7 @@ export const Projects: React.FC = () => {
             activeTab === 'Hardware & Systems' ? 'mc-btn-primary shadow-md' : 'mc-btn text-slate-300'
           }`}
         >
-          HARDWARE &amp; EXHIBITIONS (1)
+          HARDWARE &amp; EXHIBITIONS ({RESUME_DATA.projects.filter(p => p.category === 'Hardware & Systems').length})
         </button>
       </div>
 
@@ -112,23 +113,41 @@ export const Projects: React.FC = () => {
                 ))}
               </div>
 
-              {project.githubUrl ? (
-                <div className="flex items-center gap-3">
+              <div className="flex flex-wrap items-center gap-3">
+                {project.liveUrl && (
+                  <a
+                    href={project.liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 mc-btn-primary rounded font-pixel text-xs tracking-wider flex items-center gap-2 cursor-pointer shadow hover:brightness-110"
+                  >
+                    <ExternalLink className="w-4 h-4" />
+                    <span>LIVE DEMO</span>
+                  </a>
+                )}
+
+                {project.githubUrl && (
                   <a
                     href={project.githubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-4 py-2 mc-btn-primary rounded font-pixel text-xs tracking-wider flex items-center gap-2 cursor-pointer shadow"
+                    className={`px-4 py-2 rounded font-pixel text-xs tracking-wider flex items-center gap-2 cursor-pointer shadow ${
+                      project.liveUrl
+                        ? 'mc-btn text-slate-200 border border-[#2e3a4d] hover:border-emerald-500/50 hover:text-white'
+                        : 'mc-btn-primary'
+                    }`}
                   >
                     <GithubIcon className="w-4 h-4" />
-                    <span>VIEW CODE ON GITHUB</span>
+                    <span>VIEW CODE</span>
                   </a>
-                </div>
-              ) : (
-                <div className="flex items-center gap-2 text-xs font-mono text-emerald-400 bg-[#0d121a] px-3 py-2 rounded border border-[#212b39]">
-                  <span>Demonstrated live at RTU Campus Technical Exhibition</span>
-                </div>
-              )}
+                )}
+
+                {!project.githubUrl && !project.liveUrl && (
+                  <div className="flex items-center gap-2 text-xs font-mono text-emerald-400 bg-[#0d121a] px-3 py-2 rounded border border-[#212b39]">
+                    <span>Demonstrated live at RTU Campus Technical Exhibition</span>
+                  </div>
+                )}
+              </div>
             </div>
 
           </div>

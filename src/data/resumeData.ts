@@ -8,6 +8,7 @@ export interface Project {
   description: string;
   keyFeatures: string[];
   githubUrl?: string;
+  liveUrl?: string;
   badge: string;
 }
 
@@ -103,9 +104,10 @@ export const RESUME_DATA = {
         { name: "C", level: "Procedural", rarity: "Common", detail: "Memory management, pointers, data types, standard library" },
         { name: "C++", level: "OOP & STL", rarity: "Uncommon", detail: "Object-oriented programming, STL containers, problem solving" },
         { name: "Java", level: "Object-Oriented", rarity: "Uncommon", detail: "Classes, inheritance, polymorphism, collections framework" },
-        { name: "JavaScript", level: "ES6+", rarity: "Uncommon", detail: "DOM manipulation, async operations, event handling" },
+        { name: "JavaScript", level: "ES6+", rarity: "Uncommon", detail: "DOM manipulation, async operations, event handling, modern ES syntax" },
+        { name: "TypeScript", level: "Typed JS", rarity: "Uncommon", detail: "Type interfaces, strict static typing, component prop validation" },
         { name: "HTML5", level: "Semantic", rarity: "Common", detail: "Accessible layouts, SEO structure, semantic elements" },
-        { name: "CSS3", level: "Responsive", rarity: "Common", detail: "Flexbox, Grid, media queries, animations" }
+        { name: "CSS3", level: "Responsive", rarity: "Common", detail: "Flexbox, Grid, media queries, animations, modern styling" }
       ]
     },
     {
@@ -120,31 +122,35 @@ export const RESUME_DATA = {
       ]
     },
     {
-      category: "Web Technologies",
-      subtitle: "Frontend development & DOM control",
+      category: "Web Technologies & Frameworks",
+      subtitle: "Frontend development & modern UI libraries",
       iconName: "Globe",
       skills: [
+        { name: "React.js", level: "Frontend UI", rarity: "Uncommon", detail: "Functional components, custom hooks, reactive state management" },
+        { name: "Tailwind CSS", level: "Utility Styling", rarity: "Common", detail: "Custom color systems, responsive layout utilities, dark theme" },
         { name: "Responsive Design", level: "Cross-Device", rarity: "Uncommon", detail: "Mobile-first viewports, fluid units, adaptive grids" },
         { name: "DOM Manipulation", level: "Interactive UI", rarity: "Uncommon", detail: "Dynamic elements, event listeners, form handling" }
       ]
     },
     {
-      category: "Developer Tools",
+      category: "Developer Tools & CI/CD",
       subtitle: "Version control & development environment",
       iconName: "Terminal",
       skills: [
         { name: "Git", level: "Version Control", rarity: "Rare", detail: "Branching, merging, commit staging, conflict resolution" },
-        { name: "GitHub", level: "Collaboration", rarity: "Rare", detail: "Remote repos, pull requests, issue tracking" },
+        { name: "GitHub", level: "Collaboration & Actions", rarity: "Rare", detail: "Remote repos, pull requests, automated workflow actions" },
+        { name: "Vite", level: "Build Tool", rarity: "Common", detail: "Ultra-fast dev server, production bundle optimization" },
+        { name: "Netlify", level: "Hosting & CI/CD", rarity: "Uncommon", detail: "Continuous Git deployment, edge redirects, custom headers" },
         { name: "VS Code", level: "Primary IDE", rarity: "Common", detail: "Extensions, debugging, workspace setup" }
       ]
     },
     {
-      category: "Currently Learning",
+      category: "Currently Learning & Exploring",
       subtitle: "Active learning stack",
       iconName: "FlaskConical",
       skills: [
-        { name: "React.js", level: "In Progress", rarity: "Brewing", detail: "Components, hooks, state management, modern UI" },
-        { name: "Node.js", level: "In Progress", rarity: "Brewing", detail: "Server fundamentals, npm ecosystem, runtime" }
+        { name: "Node.js", level: "Backend Basics", rarity: "Brewing", detail: "Server fundamentals, npm ecosystem, runtime APIs" },
+        { name: "Next.js", level: "Fullstack React", rarity: "Brewing", detail: "Server-side rendering, app routing, fullstack architecture" }
       ]
     },
     {
@@ -198,20 +204,21 @@ export const RESUME_DATA = {
     },
     {
       id: "portfolio-website",
-      title: "Personal Portfolio Website",
-      year: "2025",
-      tech: ["HTML", "CSS"],
+      title: "Developer Portfolio Website",
+      year: "2026",
+      tech: ["React 19", "TypeScript", "Tailwind CSS", "Vite"],
       category: "Web Development",
-      badge: "Responsive Showcase",
-      summary: "Lightweight personal portfolio showcasing projects, skills, and contact channels.",
-      description: "A clean portfolio website using vanilla HTML and CSS. Focuses on crisp layout, fluid responsive breakpoints across all viewports, and accessible contact pathways with zero external dependencies.",
+      badge: "Live Production Build",
+      summary: "Interactive Minecraft-themed developer portfolio built with React 19, TypeScript, Tailwind CSS, Vite, and deployed on Netlify.",
+      description: "A production-ready developer portfolio engineered with React 19, TypeScript, and Tailwind CSS. Features an authentic Minecraft crafting aesthetic, keyboard hotbar navigation (keys 1–8), interactive developer CLI terminal shell, printable resume viewer modal, and automated CI/CD deployment on Netlify.",
       keyFeatures: [
-        "Hand-coded responsive layout with CSS Flexbox",
-        "Project showcase with direct GitHub links",
-        "Technical skills and education section",
-        "Zero external dependencies, fast page load"
+        "Minecraft-inspired HUD & keyboard hotbar navigation (keys 1–8)",
+        "Interactive developer command terminal shell with /help, /skills, /projects",
+        "Full printable/copyable in-browser resume viewer modal",
+        "Continuous deployment via Netlify and GitHub Pages with zero layout shift"
       ],
-      githubUrl: "https://github.com/manjeetsinghcharan/portfoliomanjeetcharan",
+      liveUrl: "https://manjeetdev.netlify.app/",
+      githubUrl: "https://github.com/manjeetsinghcharan/portfolio",
     },
     {
       id: "autotank-exhibition",

@@ -60,18 +60,19 @@ PROJECTS
 • School Website (Frontend) | HTML, CSS, JavaScript (2025)
   - Designed and developed the frontend of a school website to provide academic and administrative information
   - Project URL: https://github.com/manjeetsinghcharan/school-website
-• Personal Portfolio Website | HTML, CSS (2025)
-  - Developed a responsive personal portfolio website to showcase projects, skills, and contact info
-  - Project URL: https://github.com/manjeetsinghcharan/portfoliomanjeetcharan
+• Developer Portfolio Website | React 19, TypeScript, Tailwind CSS, Vite (2026)
+  - Interactive Minecraft-themed developer portfolio with terminal CLI and hotbar navigation
+  - Live Demo: https://manjeetdev.netlify.app/
+  - Project URL: https://github.com/manjeetsinghcharan/portfolio
 • AutoTank Project Exhibition (2024)
   - Automated tank-based exhibition project demonstrated on RTU Campus
 
 TECHNICAL SKILLS
-• Core Languages: C, C++, Java, JavaScript, HTML5, CSS3
+• Core Languages: C, C++, Java, JavaScript, TypeScript, HTML5, CSS3
 • Core CS Fundamentals: Object-Oriented Programming (OOPs), Operating Systems, Computer Networks, DSA Basics
-• Web Technologies: Responsive Design, DOM Manipulation
-• Tools: Git, GitHub, VS Code
-• Currently Learning: React.js, Node.js
+• Web & Frameworks: React.js, Tailwind CSS, Responsive Design, DOM Manipulation
+• Tools & CI/CD: Git, GitHub, Vite, Netlify, VS Code
+• Currently Learning: Node.js, Next.js
 
 SOFT SKILLS
 Communication, Team Collaboration, Event Coordination, Problem Solving, Time Management
@@ -246,13 +247,31 @@ CERTIFICATIONS
 
               <div>
                 <div className="flex flex-col sm:flex-row justify-between sm:items-baseline gap-1">
-                  <h3 className="font-semibold text-white">Personal Portfolio Website</h3>
-                  <span className="font-mono text-xs text-slate-400">2025</span>
+                  <h3 className="font-semibold text-white">Developer Portfolio Website</h3>
+                  <span className="font-mono text-xs text-slate-400">2026</span>
                 </div>
-                <div className="text-xs font-mono text-emerald-400 mb-1">Tech: HTML, CSS</div>
-                <p className="text-xs text-slate-300">
-                  Clean, responsive personal portfolio to showcase projects and skills.
+                <div className="text-xs font-mono text-emerald-400 mb-1">Tech: React 19, TypeScript, Tailwind CSS, Vite</div>
+                <p className="text-xs text-slate-300 mb-1">
+                  Interactive Minecraft-inspired developer portfolio featuring keyboard hotbar navigation, developer CLI terminal, printable resume modal, and Netlify CI/CD.
                 </p>
+                <div className="flex flex-wrap gap-3 mt-1">
+                  <a
+                    href="https://manjeetdev.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs text-emerald-400 font-mono underline hover:text-emerald-300"
+                  >
+                    Live Demo: manjeetdev.netlify.app
+                  </a>
+                  <a
+                    href="https://github.com/manjeetsinghcharan/portfolio"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs text-slate-400 font-mono underline hover:text-slate-300"
+                  >
+                    GitHub: github.com/manjeetsinghcharan/portfolio
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -261,11 +280,11 @@ CERTIFICATIONS
           <div className="space-y-2">
             <h2 className="font-pixel text-xs sm:text-sm text-emerald-400 tracking-wider border-b border-[#242e3d] pb-1">TECHNICAL SKILLS</h2>
             <div className="space-y-1.5 text-xs text-slate-300">
-              <div><strong className="text-white">Core Languages:</strong> C, C++, Java, JavaScript, HTML5, CSS3</div>
+              <div><strong className="text-white">Core Languages:</strong> C, C++, Java, JavaScript, TypeScript, HTML5, CSS3</div>
               <div><strong className="text-white">Core CS Fundamentals:</strong> OOPs, Operating Systems, Computer Networks, DSA Basics</div>
-              <div><strong className="text-white">Web Technologies:</strong> Responsive Design, DOM Manipulation</div>
-              <div><strong className="text-white">Tools:</strong> Git, GitHub, VS Code</div>
-              <div><strong className="text-purple-300">Currently Learning:</strong> React.js, Node.js</div>
+              <div><strong className="text-white">Web &amp; Frameworks:</strong> React.js, Tailwind CSS, Responsive Design, DOM Manipulation</div>
+              <div><strong className="text-white">Tools &amp; CI/CD:</strong> Git, GitHub, Vite, Netlify, VS Code</div>
+              <div><strong className="text-purple-300">Currently Learning:</strong> Node.js, Next.js</div>
             </div>
           </div>
 

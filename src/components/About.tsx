@@ -74,7 +74,7 @@ export const About: React.FC = () => {
           <div className="mc-card p-4 rounded bg-[#0d1117] border border-[#212a38]">
             <span className="font-pixel text-[10px] text-amber-300 block mb-1">PRACTICAL FOCUS</span>
             <p className="text-xs text-slate-300 leading-relaxed">
-              Hands-on web development with semantic HTML, modern responsive CSS, and dynamic JavaScript. Completed 45-day training at Curious Team Learning Pvt. Ltd. and former intern at XPERT CODERS.
+              Hands-on web engineering with React 19, TypeScript, Tailwind CSS, JavaScript, and semantic HTML. Completed 45-day training at Curious Team Learning Pvt. Ltd. and former intern at XPERT CODERS.
             </p>
           </div>
         </div>
@@ -95,7 +95,7 @@ export const About: React.FC = () => {
                 As a web developer, I build clean, structured, and responsive web applications. I completed an intensive 45-day Web Development training program at <span className="text-white font-medium">Curious Team Learning Pvt. Ltd.</span> in Kota, where I created the <span className="text-emerald-300 font-medium">FlashCard Generator</span> website, and previously worked as a Web Developer Intern at <span className="text-white font-medium">XPERT CODERS</span> in Jodhpur.
               </p>
               <p>
-                Along with frontend development, I have solid foundations in core programming languages (<span className="text-white font-mono">C</span>, <span className="text-white font-mono">C++</span>, <span className="text-white font-mono">Java</span>, <span className="text-white font-mono">JavaScript</span>) and Computer Science fundamentals including <span className="text-white font-medium">Object-Oriented Programming (OOPs)</span>, <span className="text-white font-medium">Operating Systems</span>, <span className="text-white font-medium">Computer Networks</span>, and <span className="text-white font-medium">Data Structures &amp; Algorithms</span>.
+                Along with frontend development, I have solid foundations in core programming languages (<span className="text-white font-mono">C</span>, <span className="text-white font-mono">C++</span>, <span className="text-white font-mono">Java</span>, <span className="text-white font-mono">JavaScript</span>, <span className="text-white font-mono">TypeScript</span>) and Computer Science fundamentals including <span className="text-white font-medium">Object-Oriented Programming (OOPs)</span>, <span className="text-white font-medium">Operating Systems</span>, <span className="text-white font-medium">Computer Networks</span>, and <span className="text-white font-medium">Data Structures &amp; Algorithms</span>.
               </p>
             </div>
           </div>
