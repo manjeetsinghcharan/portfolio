@@ -56,6 +56,7 @@ PROJECTS
 • FlashCard Generator App | HTML, CSS, JavaScript (2026)
   - Interactive educational application for creating and studying custom flashcards
   - Built during 45-day Web Development training at Curious Team Learning Pvt. Ltd.
+  - Project URL: https://github.com/manjeetsinghcharan/smart-flashcard-generator
 • School Website (Frontend) | HTML, CSS, JavaScript (2025)
   - Designed and developed the frontend of a school website to provide academic and administrative information
   - Project URL: https://github.com/manjeetsinghcharan/school-website
@@ -219,9 +220,17 @@ CERTIFICATIONS
                   <span className="font-mono text-xs text-slate-400">2026</span>
                 </div>
                 <div className="text-xs font-mono text-emerald-400 mb-1">Tech: HTML, CSS, JavaScript</div>
-                <p className="text-xs text-slate-300">
+                <p className="text-xs text-slate-300 mb-1">
                   Interactive flashcard study application developed during 45-day training at Curious Team Learning Pvt. Ltd.
                 </p>
+                <a
+                  href="https://github.com/manjeetsinghcharan/smart-flashcard-generator"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-emerald-400 font-mono underline hover:text-emerald-300"
+                >
+                  github.com/manjeetsinghcharan/smart-flashcard-generator
+                </a>
               </div>
 
               <div>

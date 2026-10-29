@@ -177,7 +177,7 @@ export const RESUME_DATA = {
         "Responsive layout using flexbox and grid",
         "Built during 45-day training at Curious Team Learning Pvt. Ltd."
       ],
-      githubUrl: "https://github.com/manjeetsinghcharan",
+      githubUrl: "https://github.com/manjeetsinghcharan/smart-flashcard-generator",
     },
     {
       id: "school-website",

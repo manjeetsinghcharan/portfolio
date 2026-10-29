@@ -59,7 +59,7 @@ export const CommandConsole: React.FC<CommandConsoleProps> = ({ isOpen, onClose 
       document.querySelector('#skills')?.scrollIntoView({ behavior: 'smooth' });
     } else if (lower === '/projects') {
       newLogs.push(
-        { text: `1. FlashCard Generator App (Curious Team Learning)`, type: 'success' },
+        { text: `1. FlashCard Generator App -> github.com/manjeetsinghcharan/smart-flashcard-generator`, type: 'success' },
         { text: `2. School Website (Frontend) -> github.com/manjeetsinghcharan/school-website`, type: 'success' },
         { text: `3. Personal Portfolio Website -> github.com/manjeetsinghcharan/portfoliomanjeetcharan`, type: 'success' },
         { text: `4. AutoTank Project Exhibition (RTU Campus)`, type: 'success' }
